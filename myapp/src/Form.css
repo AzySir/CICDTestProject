@@ -1,0 +1,35 @@
+form {
+    /* border:1px solid green; */
+    height:600px;
+    width:600px;
+    margin:0 auto;
+    text-align:left;
+    padding-left:50px;
+    padding-right:50px;
+}
+label {
+    font-size:14px;
+    text-align:left;
+    display:inline-block;
+    width:20%;
+    color:rgb(233, 109, 60);
+}
+
+input {
+    background:none;
+    border:1px solid rgb(160, 158, 159);
+    height:40px;
+    width:60%;
+    color:white;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+input[type="submit"] {
+    width:100%;
+}
+
+input[type="submit"]:hover {
+    background-color:rgba(115,111,110);
+    cursor:pointer;
+}
